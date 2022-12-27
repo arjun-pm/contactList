@@ -56,7 +56,7 @@ class MainScreen extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: ElevatedButton(
                 onPressed: () {  Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => SignupPage()));},
+                    MaterialPageRoute(builder: (context) =>  SignupPage()));},
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(horizontal: 90.0, vertical: 15.0),
                   primary: Colors.red,
